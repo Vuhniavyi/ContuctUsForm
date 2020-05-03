@@ -1,0 +1,45 @@
+{
+  "name": "Maksym Vuhniavyi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Maksym Vuhniavyi",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.1",
+    "crypto-js": "^4.0.0",
+    "inputmask": "^4.0.8",
+    "jquery-input-mask-phone-number": "^1.0.11",
+    "lazyloadxt": "^1.1.0",
+    "masonry-layout": "^4.2.2",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.5.0",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.4.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.2"
+  }
+}
